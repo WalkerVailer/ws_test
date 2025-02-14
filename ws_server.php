@@ -55,9 +55,9 @@ $server = IoServer::factory(
             new WebSocketServer()
         )
     ),
-    9000 // 사용할 포트 번호 (웹 호스팅에서 허용하는 포트인지 확인 필요)
+    8080 // 사용할 포트 번호 (웹 호스팅에서 허용하는 포트인지 확인 필요)
 );
 
-echo "WebSocket server started on port 9000\n";
+echo "WebSocket server started on port 8080\n";
 
 $server->run();
